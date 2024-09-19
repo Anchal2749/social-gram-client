@@ -2,6 +2,7 @@ import React from "react";
 import "emoji-mart/css/emoji-mart.css";
 import { Picker } from "emoji-mart";
 const Icons = ({ setContent, content, theme }) => {
+  console.log("ji");
   return (
     <div
       className="nav-item dropdown"
