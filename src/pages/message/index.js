@@ -2,6 +2,7 @@ import React from 'react'
 import LeftSide from '../../components/message/LeftSide'
 
 const Message = () => {
+  console.log("ki")
     return (
       <div className="message d-flex">
         <div className="col-md-4 px-0" style={{borderRight: '1px solid #ddd'}}>
